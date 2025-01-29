@@ -47,7 +47,7 @@ export default function Hero() {
   }, [index, isDeleting, currentText]);
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-800 relative overflow-hidden px-6 sm:px-12 lg:px-44">
+    <div className="flex items-center justify-center min-h-screen bg-gray-800      relative overflow-hidden px-6 sm:px-12 lg:px-44">
       <div className="container mx-auto flex flex-col-reverse items-center justify-between space-y-12 space-y-reverse lg:flex-row lg:space-y-0">
         {/* Text Section */}
         <div className="flex flex-col items-center text-center lg:text-left lg:items-start">

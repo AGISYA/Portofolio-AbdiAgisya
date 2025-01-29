@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLink, FaSearch } from "react-icons/fa";
+import Image from "next/image"; // Import Image from next/image
 
 const projects = [
   {
@@ -33,10 +34,12 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div key={index} className="relative group">
-              <img
+              <Image
                 src={project.imageUrl}
                 alt={project.title}
                 className="w-full h-48 sm:h-64 object-cover rounded-lg"
+                width={320} // Adjust the width as per your need
+                height={256} // Adjust the height as per your need
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-center items-center text-white text-center p-4 rounded-lg">
                 <h3 className="text-xl font-bold text-green-400">

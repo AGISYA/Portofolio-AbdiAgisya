@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image"; // Import Image from next/image
 
 export default function Hero() {
   const [text, setText] = useState("");
@@ -54,7 +55,7 @@ export default function Hero() {
             ABDI AGISYA
           </h1>
           <p className="mt-4 text-base text-white sm:text-lg md:text-2xl">
-            I'm a {text}
+            I&apos;m a {text}
             <span className="animate-blink text-green-700">|</span>
           </p>
           <button className="mt-6 px-6 py-3 sm:px-8 sm:py-4 bg-green-600 text-white text-base sm:text-lg font-medium rounded-lg shadow-lg transition-transform transform hover:scale-105">
@@ -65,10 +66,12 @@ export default function Hero() {
         {/* Image Section */}
         <div className="relative flex justify-center items-center w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80">
           <div className="relative">
-            <img
+            <Image
               src="/images/White and Black Simple Coming Soon Instagram Post (1).png"
               alt="Abdi Agisya"
               className="relative rounded-full shadow-2xl w-full h-full object-cover"
+              width={320} // Add appropriate width
+              height={320} // Add appropriate height
             />
             {/* SVG Circle with Dashed Border */}
             <div

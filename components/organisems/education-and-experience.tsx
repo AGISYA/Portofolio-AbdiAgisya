@@ -6,7 +6,7 @@ const Resume = () => {
     <div className="bg-gray-800 md:-mt-10 -mt-12 min-h-screen flex justify-center px-4 py-6">
       <div className="max-w-4xl w-full p-6 md:p-8 rounded-lg">
         <h2 className="text-3xl font-bold text-center mb-4 text-green-700">
-          MELANJUTKAN
+          RESUME
         </h2>
         <p className="text-center text-base sm:text-lg text-white mb-6">
           Berikut riwayat pendidikan, pengalaman kerja, dan pengalaman

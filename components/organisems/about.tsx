@@ -6,7 +6,7 @@ export default function About() {
     <div className="flex items-center justify-center md:-mt-0 -mt-44 min-h-screen bg-gray-800 relative overflow-hidden px-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-3xl w-full">
         <h1 className="text-3xl font-bold text-center mb-4 text-green-700">
-          About Me
+          ABOUT ME
         </h1>
 
         <div className="w-full">

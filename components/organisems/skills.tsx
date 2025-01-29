@@ -40,7 +40,7 @@ export default function Skills() {
   return (
     <div className="flex flex-col md:-mt-0 -mt-44 h-32">
       <section className="py-12 px-6 bg-gray-800 flex-1 flex flex-col items-center justify-center">
-        <h2 className="text-3xl font-bold text-green-600 mb-8">My Skills</h2>
+        <h2 className="text-3xl font-bold text-green-600 mb-8">MY SKILLS</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <Card key={index} className="flex flex-col items-center shadow-lg">

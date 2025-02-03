@@ -24,7 +24,7 @@ export default function About() {
             Personal Information
           </h2>
 
-          <ul className="space-y-4 text-white text-base sm:text-lg">
+          <ul className="space-y-4 text-whiten text-base sm:text-lg">
             <li>
               <strong>Website:</strong>{" "}
               <a
